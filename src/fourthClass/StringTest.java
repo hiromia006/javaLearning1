@@ -1,10 +1,10 @@
 package fourthClass;
 
-public class GetString {
+public class StringTest {
 
     private String str;
 
-    public GetString(String str) {
+    public StringTest(String str) {
         this.str = str;
     }
 

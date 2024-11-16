@@ -1,11 +1,11 @@
 package fourthClass;
 
-public class IntergetTest {
+public class IntegerTest {
 
 
     private Integer integer;
 
-    public IntergetTest(Integer integer) {
+    public IntegerTest(Integer integer) {
         this.integer = integer;
     }
 
