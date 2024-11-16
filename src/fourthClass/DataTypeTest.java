@@ -21,7 +21,7 @@ public class DataTypeTest {
         System.out.println(test3.getaLong());
 
         System.out.println("================================");
-        //Generic
+        //Generic without restriction
         Generic<String> generic1 = new Generic<>("Nova");
         System.out.println(generic1.getContent());
 
@@ -35,7 +35,9 @@ public class DataTypeTest {
         System.out.println(generic4.getContent());
 
 
-//        List<String> strings = Arrays.asList("raheeb", "shantanu", "ava");
-//        List<Integer> strings1 = Arrays.asList(12, 12, 13, 44);
+        //Generic with restriction
+        genericWithWildCard<Integer> generic5=new genericWithWildCard<>(1000);
+        System.out.println(generic5.getContent());
+
     }
 }
